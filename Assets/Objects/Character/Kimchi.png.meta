@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 53ef415c98f0bc74d80c8d368bd76707
+guid: ec8356879be76044482a1b1f18a3363f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3213392895145335423
-    second: Building Final_0
+      213: -6783263175015021827
+    second: Kimchi_0
   - first:
-      213: 8673579488918997373
-    second: Building Final_1
+      213: -129335783338571430
+    second: Kimchi_1
+  - first:
+      213: 3127120839060200124
+    second: Kimchi_2
+  - first:
+      213: -2628229348425882085
+    second: Kimchi_3
+  - first:
+      213: 3520583236542461473
+    second: Kimchi_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Building Final_0
+      name: Kimchi_0
       rect:
         serializedVersion: 2
-        x: 293
-        y: 773
-        width: 200
-        height: 644
+        x: 107
+        y: 4307
+        width: 826
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7ad6e610d3489c20800000000000000
-      internalID: 3213392895145335423
+      spriteID: df2cd33e4120dd1a0800000000000000
+      internalID: -6783263175015021827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Building Final_1
+      name: Kimchi_1
       rect:
         serializedVersion: 2
-        x: 293
-        y: 0
-        width: 200
-        height: 643
+        x: 75
+        y: 3315
+        width: 858
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +162,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d798120379ebe5870800000000000000
-      internalID: 8673579488918997373
+      spriteID: a598b515ac1843ef0800000000000000
+      internalID: -129335783338571430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kimchi_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2323
+        width: 870
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba97edb5d3c56b20800000000000000
+      internalID: 3127120839060200124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kimchi_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1331
+        width: 886
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a1d22557a68bd0800000000000000
+      internalID: -2628229348425882085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kimchi_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 339
+        width: 858
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126fe400dcf9bd030800000000000000
+      internalID: 3520583236542461473
       vertices: []
       indices: 
       edges: []
@@ -172,9 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Building Final_0: 3213392895145335423
-      Building Final_1: 8673579488918997373
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

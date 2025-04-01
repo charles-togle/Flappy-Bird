@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class BuildingSpawnerScript : MonoBehaviour
+public class CloudSpawner : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject BuildingPrefab;
-    public float SpawnInterval = 2.0f;
+    public GameObject CloudPrefab;
+    public float SpawnInterval;
     private float Timer = 0.0f;
     public AirplaneMoveScript airplaneMoveScript;
     void Start()
@@ -15,7 +14,7 @@ public class BuildingSpawnerScript : MonoBehaviour
     {
         if (Timer >= SpawnInterval && airplaneMoveScript.isActive)
         {
-            Instantiate(BuildingPrefab, new Vector3(transform.position.x, Random.Range(-3.66f, 0.2f), 0), Quaternion.identity);
+            Instantiate(CloudPrefab, new Vector3((float)8.03, (float)-3.78, 0), Quaternion.identity);
             Timer = 0.0f;
         }
         else

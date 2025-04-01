@@ -8,7 +8,7 @@ public class BuildingMove : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        airplaneMoveScript = GameObject.FindGameObjectWithTag("Airplane").GetComponent<AirplaneMoveScript>();
+        airplaneMoveScript = GameObject.FindGameObjectWithTag("Character").GetComponent<AirplaneMoveScript>();
     }
 
     // Update is called once per frame

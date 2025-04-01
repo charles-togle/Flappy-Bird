@@ -9,6 +9,8 @@ public class AirplaneMoveScript : MonoBehaviour
     public float speed = 5f;
     public bool isDead = false;
     public bool isActive = false;
+    [SerializeField] GameObject startGameScreen;
+    
     void Start()
     {
         isActive = false;
@@ -34,7 +36,7 @@ public class AirplaneMoveScript : MonoBehaviour
             if (isActive)
             {
                 AirPlane.linearVelocity = Vector2.up * speed;
-
+                startGameScreen.SetActive(false);
             }
         }
     }
